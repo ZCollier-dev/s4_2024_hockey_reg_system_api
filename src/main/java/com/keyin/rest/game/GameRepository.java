@@ -7,5 +7,4 @@ import java.util.List;
 
 @Repository
 public interface GameRepository extends CrudRepository<Game, Long> {
-    public List<Game> findByGame_Location(String location);
 }
